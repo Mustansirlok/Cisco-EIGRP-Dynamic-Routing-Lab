@@ -1,0 +1,144 @@
+# Cisco EIGRP Dynamic Routing Lab
+
+## Project Overview
+
+This project demonstrates the implementation of EIGRP (Enhanced Interior Gateway Routing Protocol) in a multi-router enterprise network using Cisco Packet Tracer. The network was designed to establish dynamic routing between interconnected networks and enable automatic route learning across the infrastructure.
+
+The lab simulates a real-world enterprise routing environment where routers exchange routing information to provide end-to-end connectivity between hosts located on different networks.
+
+---
+
+## Technologies and Concepts Used
+
+- Cisco Packet Tracer
+- EIGRP Dynamic Routing
+- Automatic Route Learning
+- Multi-Router Connectivity
+- IP Addressing and Subnetting
+- Cisco IOS CLI
+- Enterprise Routing Concepts
+- Network Verification and Troubleshooting
+
+---
+
+## Network Topology
+
+The topology consists of:
+
+- 5 Cisco 2811 Routers
+- 2 Cisco 2960 Switches
+- Multiple End Devices (PCs)
+- Multiple interconnected routed networks
+
+### Configured Networks
+
+- 192.168.1.0/24
+- 192.168.2.0/24
+- 192.168.12.0/24
+- 192.168.23.0/24
+- 192.168.34.0/24
+- 192.168.45.0/24
+
+---
+
+## Network Features
+
+### EIGRP Dynamic Routing
+Configured EIGRP routing between routers to dynamically advertise and learn remote network routes.
+
+### Automatic Route Learning
+Enabled routers to automatically exchange routing information and update routing tables dynamically.
+
+### Neighbor Relationship Formation
+Established EIGRP neighbor adjacencies between directly connected routers.
+
+### Router Interface Configuration
+Assigned IP addresses to router interfaces according to the provided topology.
+
+### End-to-End Connectivity
+Established successful communication between hosts located on different routed networks.
+
+---
+
+## Verification and Testing
+
+The following verifications were successfully completed:
+
+- EIGRP configuration verification
+- Neighbor relationship verification
+- Dynamic route learning verification
+- Router interface verification
+- Routing table analysis
+- Successful end-to-end connectivity testing
+
+---
+
+## Verification Commands Used
+
+```bash
+show running-config
+show ip route
+show ip eigrp neighbors
+show ip protocols
+show ip interface brief
+ping [destination-ip]
+```
+
+---
+
+## Project Structure
+
+```text
+Cisco-EIGRP-Dynamic-Routing-Lab/
+
+├── README.md
+├── eigrp-routing-lab.pkt
+├── topology.png
+
+└── screenshots/
+    ├── topology.png
+    ├── eigrp-config.png
+    ├── show-ip-route.png
+    ├── eigrp-neighbors.png
+    ├── ip-protocols.png
+    ├── router-interfaces.png
+    └── end-to-end-ping.png
+```
+
+---
+
+## Skills Demonstrated
+
+- EIGRP dynamic routing implementation
+- Enterprise routing concepts
+- Automatic route learning
+- EIGRP neighbor adjacency configuration
+- Cisco CLI configuration
+- IP addressing and subnetting
+- Network troubleshooting
+- Routing verification and testing
+
+---
+
+## Screenshots Included
+
+### EIGRP Configuration
+Displays EIGRP routing configuration and advertised networks.
+
+### Routing Table Verification
+Shows dynamically learned EIGRP routes marked with `D`.
+
+### EIGRP Neighbor Relationships
+Verifies successful neighbor adjacency formation between routers.
+
+### Interface Verification
+Displays router interface status and assigned IP addresses.
+
+### End-to-End Connectivity Testing
+Demonstrates successful communication between remote hosts.
+
+---
+
+## Author
+
+Mustansir Lokhandwala
